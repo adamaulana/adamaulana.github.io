@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
+    <!-- Google Font CSS -->
+    <!-- <link href='https://fonts.googleapis.com/css?family=Poppins' rel='stylesheet'> -->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,700;1,200&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="css/core.css?ver=1.00" ve>
+    <link rel="stylesheet" type="text/css" href="css/style.css?ver=1.00" ve>
+
+    <title>ALPHA</title>
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-light" id="mynavbar">        
+            <a class="navbar-brand" href="index.html">
+                <img width="70" src="img/alpha.png">
+            </a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse justify-content-end" id="navbarNavAltMarkup">
+            </div>        
+    </nav>
+
+    <section class="content-intro-detail">
+        <div class="container">
+            <div class="row">            
+                <div class="col-lg-7 align-self-center mb-5 mb-lg-0" data-aos="fade-right" data-aos-duration="800">
+                    <h2 class="font-weight-bolder"> High Order Function</h2>                    
+                    <br>                    
+                </div>
+                <div class="col-lg-7" data-aos="fade-up" data-aos-duration="1500">
+                    
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="content-materi">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 col-xs-12 card-es">
+                    High order function secara sederhana adalah sebuah function yang menerima function lain sebagai argumen atau mengembalikan function sebagai output. <br> <br>
+                    Berikut 4 high order function yang paling sering digunakan. <br>
+                    Agar lebih mudah memahami penggunaan method — method ini, saya sarankan langsung praktek ya. <br>
+                    Bisa menggunakan online IDE seperti repl <br> <br>
+                    <b>Map</b> <br>
+Method map mereturn/mengembalikan array baru dari hasil memanggil fungsi untuk setiap elemen array. <br>
+Methode map memanggil fungsi yang disediakan satu kali untuk setiap elemen dalam sebuah array secara berurutan. <br>
+Map tidak menjalankan fungsi untuk elemen array tanpa nilai. <br>
+Method map tidak akan mengubah original array. <br>
+<code>
+    let animes = [ <br>
+  { id: 1, name: 'Saint seiya'}, <br>
+  { id: 2, name: 'Naruto'}, <br>
+  { id: 3,name: 'Nanatsu no Tazai'} <br>
+] <br>
+
+animes.map(anime => anime.name)
+</code>
+<br><br>
+<b>Filter</b> <br>
+Method filter membuat array baru yang elemennya diisi dari semua elemen array yang memenuhi kondisi. <br>
+Method filter tidak menjalankan fungsi untuk elemen array tanpa nilai. <br>
+Method filter tidak mengubah array asli. <br>
+
+Dari contoh diatas kita mencoba menfilter original array animes yang itemnya punya properti name = Naruto. <br>
+Outputnya adalah sebuah array baru dengan satu item. <br> <br>
+<b>Find</b> <br>
+Methode find mengembalikan nilai elemen pertama dalam array yang sesuai dengan kondisi yang diberikan. <br>
+Methode find mengeksekusi fungsi satu kali untuk setiap elemen yang ada dalam array. <br>
+Jika menemukan elemen yang di cari , find () mengembalikan nilai elemen array tersebut (dan tidak memeriksa nilai yang tersisa). <br>
+Jika tidak menemukan elemen yang dicari, maka akan mengembalikan nilai undefined. <br>
+<code>
+    let animes = [ <br>
+  { id: 1, name: 'Saint seiya'}, <br>
+  { id: 2, name: 'Naruto'}, <br>
+  { id: 3,name: 'Nanatsu no Tazai'} <br>
+] <br>
+
+animes.find(anime => anime.name === "Naruto")
+</code> <br> <br>
+
+<b>Reduce</b>
+Secara literal reduce berarti mengurangi. <br>
+Methode reduce digunakan untuk mereduce elemen — elemen array ke sebuah nilai tunggal. <br>
+Methode reduce mengeksekusi fungsi yang disediakan untuk setiap elemen dalam array (dari kiri ke kanan). <br>
+Nilai return dari fungsi disimpan dalam akumulator (hasil / total). <br>
+Metode reduce akan menerima sebuah callback function. <br>
+Callback function ini harus menerima 2 paramerter wajib yaitu accumulator dan currentValue. <br>
+Btw, accumulator dan currentValue dapat kamu ganti dengan nama lain. <br>
+Sebagai contoh kita akan mencoba mereduce array numbers dengan menguranginya dengan angka setelahnya. <br>
+Perhatikan contoh kodenya di bawah! <br>
+<code>
+    let numbers = [175, 50, 25] <br>
+    const result = numbers.reduce((accumulator, currentValue) => accumulator - currentValue) <br>
+// result = 100
+</code>
+
+Atau contoh yang sedikit lebih komplek. <br>
+Kita akan menjumlah harga setiap barang yang ada dalam array fruits. <br>
+<code>
+    const fruits = [ <br>
+  {name: "Pisang", price: 2000}, <br>
+  {name: "Alpukat", price: 3000}, <br>
+  {name: "Melon", price: 5000} <br>
+] <br>
+// tanpa destructuring <br>
+const total = fruits.reduce((totalPrice, currentItem) => totalPrice+currentItem.price,0) <br>
+// dengan destructuring <br>
+const total2 = fruits.reduce((totalPrice, {price}) => totalPrice + price, 0) <br>
+console.log(total) // 10000 <br>
+console.log(total2) // 10000 <br>
+</code>
+Intinya method reduce akan mengembalikan single value. <br>
+
+<br><br>
+<a href="https://www.onlinegdb.com/online_html_compiler" target="_blank" class="btn btn-warning font-weight-bolder s py-3 px-4 mr-lg-1">Coba Code</a>                    
+                </div>
+            </div>
+        </div>
+
+        
+</section>
+
+<!-- <section class="compiler">
+    <div class="row">
+        <iframe src="https://www.onlinegdb.com/online_html_compiler" frameborder="0">            
+        </iframe>
+    </div>
+</section> -->
+
+
+
+    <!-- Option 1: jQuery and Bootstrap Bundle (includes Popper) -->
+    
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" crossorigin="anonymous"></script>
+    <script>
+        AOS.init();
+      </script>
+</body>
+</html>
