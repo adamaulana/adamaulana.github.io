@@ -1,0 +1,17 @@
+:root {
+    --textBlack: #3F3D56;   
+    --colorMiki: #8BC34B;
+  }
+
+  .raes-button{
+    box-shadow: 1px 2px 5px #888888;
+  }
+
+  .ijo-miki{
+    color: var(--colorMiki);
+  }
+
+  .btn-miki{
+    background-color: var(--colorMiki);
+    color: #ffffff;
+  }
