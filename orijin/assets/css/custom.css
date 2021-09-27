@@ -1,0 +1,610 @@
+/* import font */
+@font-face {
+    font-family: Gilroy-Bold;
+    src: url('../fonts/Gilroy-Extrabold.otf');
+}
+@font-face {
+    font-family: Gilroy-Light;
+    src: url('../fonts/Gilroy-Light.otf');
+}
+:root
+{
+
+    --darkblue : #202B48; 
+    --radialorange : #FFA144
+}
+
+/* basic navbar */
+#myNavbar{
+    padding: 20px;
+    padding-left: 7%;
+    padding-right: 10%;
+    padding-top: 52px;    
+}
+
+#myNavbar{
+    font-family: DM Sans;
+    font-weight: 400;}
+    #myNavbar .navbar-toggle{
+        color: rgb(73, 73, 73);
+    }
+    #myNavbar .navbar-brand{
+        margin-right: 6rem;
+    }
+    #myNavbar .active{
+        font-weight:700;
+    }
+    #myNavbar .nav-link{
+        text-decoration: none;
+        font-size: 14px;
+        margin-right: 44px;
+        color:#FFFFFF;
+        font-family: DM Sans;        
+    }
+    #myNavbar .btn-regis{
+        text-decoration: none;
+        color: #FFFFFF;
+        font-weight: 700;
+        width: 123px;
+        padding: 10px;
+        text-align: center;
+        font-size:14px;
+        background-color:var(--darkblue);
+        border-radius:20px;        
+    }
+/* dark navbar   */
+#myDarkNavbar{
+    padding: 20px;
+    padding-left: 7%;
+    padding-right: 10%;
+    padding-top: 27px;
+    background-color: #FFFFFF;
+    visibility: hidden;    
+}
+
+#myDarkNavbar{
+    font-family: DM Sans;
+    font-weight: 400;}
+    #myDarkNavbar .navbar-brand{
+        margin-right: 6rem;
+    }
+    #myDarkNavbar .active{
+        font-weight:700;
+    }
+    #myDarkNavbar .nav-link{
+        text-decoration: none;
+        font-size: 14px;
+        margin-right: 44px;
+        color:var(--darkblue);
+        font-family: DM Sans;        
+    }
+    #myDarkNavbar .btn-regis{
+        text-decoration: none;
+        color: #FFFFFF;
+        font-weight: 700;
+        width: 123px;
+        padding: 10px;
+        text-align: center;
+        font-size:14px;
+        background-color:var(--darkblue);
+        border-radius:20px;        
+    }
+
+
+#head-cover{
+    min-height:60vh;}
+    #head-cover .head-title{
+        min-height:155vh;
+        background: url('../images/bg-head.png');
+        background-size:100%;
+    }
+    #head-cover .head-title .motto-area{
+        margin-left: 10%;
+        margin-top: 36%;
+    }
+    #head-cover .head-title .orijin-title{
+        font-size: 14px;
+        color: var(--radialorange);
+        margin-bottom:0px;
+        font-family: 'DM Sans';
+        font-weight: 700;
+    }
+    #head-cover .head-title .title-motto{
+        width: 68%;        
+        font-size: 70px;
+        color: #FFFFFF;
+        font-family: Gilroy-Bold;
+        font-weight: 800;
+        line-height: 86px;
+    }
+    #head-cover .head-title .motto-desc{
+        font-family: DM Sans;        
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 26px;
+        color: #ACB9AF;
+        width: 60%;
+    }
+    #head-cover .head-title .bt-learn-more{
+        text-decoration: none;
+        padding: 16px 35px;
+        width: 164px;
+        font-family: DM Sans;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 14px;
+        line-height: 26px;        
+        text-align: center;
+        letter-spacing: 0.3px;
+        background: #67D1DE;
+        border-radius: 10px;
+        color: #FFFFFF;
+        margin-top:30px;
+    }
+    #head-cover .head-phone img{
+        width: 529px;
+        margin-left: -226px;
+        margin-top: 34%;
+    }
+
+#partnering{
+        min-height:20vh;}
+    #partnering .phone-lobster{
+        width:520px;
+        margin-left: 15%;
+        margin-top: 100px;
+    }
+    #partnering .title-partnering{
+        width: 100%;
+        font-size: 63px;
+        color: #021639;
+        font-family: Gilroy-Bold;
+        font-weight: 800;
+        line-height: 86px;
+        margin-top: 30%;
+    }
+
+    #partnering .subtitle-partnering{
+        font-family: DM Sans;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 17px;
+        line-height: 26px;
+        color:#878B97;
+        margin-bottom: 55px;
+    }
+    #partnering .list-partnering .icon-partnering{
+        width:93px;        
+        display:inline-block;
+    }
+    #partnering .list-partnering .icon-partnering .icon-area{
+        color: #FFFFFF;
+        border: 1px solid #DEDEDE;
+        border-radius:10px;
+        text-align:center;
+        padding: 16px; 
+    }
+    #partnering .list-partnering .icon-partnering .icon-area img{
+        width: 55px;        
+    }
+    #partnering .list-partnering{
+        width: 545px;
+        margin-bottom: 30px;
+    }
+    #partnering .list-partnering .list-partnering-cpt{
+        width: 409px;
+    }
+    #partnering .list-partnering .list-partnering-cpt h4{
+        font-size: 16px;
+        color: #000000;
+        font-family: 'DM Sans';
+        font-weight: 700;
+    } 
+    #partnering .list-partnering .list-partnering-cpt p{
+        font-size: 14px;
+        color: #878B97;
+        font-family: 'DM Sans';
+        font-weight: 400;
+    } 
+
+#quotes{
+    min-height: 20vh;}
+    #quotes .box-quotes{
+        margin-top: 10%;
+        margin-bottom: 10%;
+        min-height:490px;
+        background: url('../images/bg-quotes.png');
+        background-size:100%;
+    }
+
+    #quotes .box-quotes .box-layer{
+        width:100%;
+        padding:0.1px;
+        min-height:490px;
+        border-radius:45px;
+        background-color:rgba(32, 43, 72, 0.76);
+        text-align:center;
+    }
+    #quotes .box-quotes .box-layer h1{
+        font-family: 'Gilroy-Bold';
+        color: #FFFFFF;
+        font-size:48px;
+        width:80%;
+        margin-top:10%;}
+    #quotes .box-quotes .box-layer h1 small{
+        font-family: 'Nunito Sans';
+        font-weight: 700;
+        font-size:60px;}
+    #quotes .box-quotes .box-layer .bt-bain{
+        border: 0px;
+        margin-top:2%;        
+        background-color: #FFFFFF;
+        padding: 10px 21px;
+        border-radius: 48px;        
+    }
+
+#about{
+    min-height:20vh;
+    margin-top: 2%;
+    margin-bottom:6%}    
+    #about .about-title .about-title{
+        font-size: 14px;
+        color: var(--radialorange);
+        margin-bottom:0px;
+        font-family: 'DM Sans';
+        font-weight: 700;
+    }
+    #about .about-title .about-motto{        
+        font-size: 70px;
+        color: var(--darkblue);
+        font-family: Gilroy-Bold;
+        font-weight: 800;
+        line-height: 86px;
+    }
+    #about .about-title .about-desc{
+        font-family: DM Sans;        
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 26px;
+        color: #ACB9AF;   
+        text-align:justify;
+        width: 78%;
+    }
+#toolkit{
+    min-height: 20vh;
+    background-color: #F4F4F4; 
+    padding: 5%;
+    padding-right:0px;
+    text-align: center;}
+    #toolkit h1{
+        font-family: 'Gilroy-Bold';
+        font-size: 63px;
+        line-height:80px;
+        width: 650px;
+        display: block;
+        margin-top:5%;
+    }    
+    #toolkit .swiper-container {
+        width: 120%;
+        margin-left:4%; 
+        min-height: 435px;
+        margin-top: 83px;
+        /* background-color: cornflowerblue; */
+      }
+
+    #toolkit .swiper-wrapper .swiper-slide{        
+        min-height: 321px;
+        border-radius:10px;
+        background-color: #FFFFFF;
+        text-align: center;
+        padding:4% 3%;
+    }
+    #toolkit .swiper-wrapper .swiper-slide h3{
+        font-size: 24px;
+        font-family: 'Gilroy-Bold';
+        font-weight: 800;
+        margin-top:30px;
+    }
+
+    #toolkit .swiper-wrapper .swiper-slide p{
+        font-size: 15px;
+        font-family: 'DM Sans';
+        font-weight: 400;
+        line-height: 24.8px;
+    }
+
+    #toolkit .swiper-pagination{
+        margin-left:-11%;  
+        margin-bottom: 20px;      
+    }
+
+#feeds{
+    background-color: #F4F4F4; 
+    min-height: 86vh;
+    background-size: 100%;
+    background:url('../images/bg-feed.png')
+    }
+    #feeds .feeds-title{
+        padding-top:10%;
+        /* padding-bottom:10%; */
+        padding-left:10%;
+    }
+    #feeds .feeds-title .feeds-motto{        
+        font-size: 70px;
+        color: #FFFFFF;
+        font-family: Gilroy-Bold;
+        font-weight: 800;
+        line-height: 86px;
+    }
+    #feeds .feeds-title .feeds-desc{
+        font-family: DM Sans;        
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 26px;
+        color: #FFFFFF;   
+        text-align:justify;
+        width: 78%;
+    }    
+    #feeds .feeds-title .bt-learn-more{
+        text-decoration: none;
+        padding: 16px 35px;
+        width: 164px;
+        font-family: DM Sans;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 14px;
+        line-height: 26px;        
+        text-align: center;
+        letter-spacing: 0.3px;
+        background: #FFFFFF;
+        border-radius: 10px;
+        color:var(--darkblue);        
+    }
+    #feeds .feed-form{
+        margin-top: 10%;
+        height:300px; 
+    }
+    #feeds .feed-form .col-md-6{
+        padding-left:0px;
+    }
+    #feeds .form-label{
+        color:#FFFFFF;
+    }
+    #feeds .form-control{
+        background-color:  rgba(209, 210, 220, 0.7);
+        padding: 17px 29px;
+        border: 0px;
+    }
+    #feeds .feed-form button{
+        background-color:#67D1DE;
+        color: #FFFFFF;
+        font-family: 'DM Sans';
+        font-weight: 700;
+        width:98%;
+        border-radius:10px;
+    }
+#footer{
+    background-color:#FFFFFF;
+    min-height: 35vh;
+    padding:3% 5%}
+    #footer .logo-area{
+        padding:7%;
+        text-align: center;
+    }
+    #footer p{
+        font-family: 'DM Sans';
+        font-weight: 400;
+    }
+    #footer .phone{
+        padding-top:8%;
+    }
+    #footer .address{
+        padding-top:8%;
+    }
+    #footer .cpr{
+        padding-top:8%;        
+
+    }
+    #footer .cpr p{
+        color: #808386;
+    }
+
+
+
+/* responsive */
+@media only screen and (max-width:720px){
+    #myNavbar {
+        padding: 6px;
+        padding-left: 3%;
+        padding-right: 10%;
+        padding-top: 20px;
+    }
+    #head-cover .head-title .title-motto {
+        width: 68%;
+        font-size: 26px;
+        color: #FFFFFF;
+        font-family: Gilroy-Bold;
+        font-weight: 800;
+        line-height: 30px;
+    }
+
+    #head-cover .head-title{
+        min-height:779px;
+        background: url('../images/x1.png');
+        background-size:100% 100%;
+    }
+
+    #head-cover .head-title .motto-area {
+        margin-left: 3%;
+        margin-top: 34%;
+    }
+
+    #head-cover .head-title .title-motto {
+        width: 82%;
+        font-size: 39px;
+        color: #FFFFFF;
+        font-family: Gilroy-Bold;
+        font-weight: 800;
+        line-height: 47px;
+    }
+    
+    #head-cover .head-title .motto-desc {
+        font-family: DM Sans;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 21px;
+        color: #ACB9AF;
+        width: 88%;
+    }
+    #head-cover .head-phone img {
+        width: 97%;     
+        margin-left:0%;
+        margin-top: -37vh;   
+    }
+    #partnering .phone-lobster {
+        width: 90%;
+        margin-left: 4%;   
+        margin-top: 3%; 
+        margin-bottom:31px; 
+    }
+
+    
+    #partnering .title-partnering {
+        font-size: 36px;
+        width: 96%;
+        font-size: 36px;
+        color: #3b3e42;
+        font-family: Gilroy-Bold;
+        font-weight: 800;
+        line-height: 48px;
+        margin-top: 17%;
+        margin-left: 6%;
+    }
+    #partnering .subtitle-partnering {
+        margin-left: 6%;
+        width:92%;
+    }
+    
+    #partnering .list-partnering {
+        width: 93%;
+        margin-bottom: 28%;
+        margin-left: 2%;
+    }
+    #partnering .list-partnering .list-partnering-cpt {
+        width: 67%;
+    }
+
+    #quotes .box-quotes {
+        margin-top: 10%;
+        margin-bottom: 10%;
+        border-radius: 26px;
+        min-height: 255px;
+        background: url(../images/bg-quotes.png);
+        background-size: cover;
+    }
+    #quotes .box-quotes .box-layer {
+        width: 100%;
+        padding: 0.1px;
+        min-height: 336px;
+        border-radius: 26px;
+        background-color: rgba(32, 43, 72, 0.76);
+        text-align: center;
+    }
+
+    #quotes .box-quotes .box-layer h1 {
+        font-family: 'Gilroy-Bold';
+        color: #FFFFFF;
+        font-size: 24px;
+        width: 80%;
+        margin-top: 12%;
+        line-height: 36px
+    }
+    #quotes .box-quotes .box-layer .bt-bain {
+        border: 0px;
+        margin-top: 2%;
+        background-color: #FFFFFF;
+        padding: 8px 2px;
+        border-radius: 48px;
+    }
+    
+    #quotes .box-quotes .box-layer .bt-bain img {
+        width:66%;
+    }
+    #about{
+        padding-left:5%;
+        padding-right:5%;
+    }
+    #about .about-title .about-desc {
+        font-family: DM Sans;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 20px;
+        color: #ACB9AF;
+        text-align: justify;
+        width: 94%;
+        margin-left: 2%;
+    }
+
+    #about .about-title .about-motto {
+        font-size: 35px;
+        color: var(--darkblue);
+        font-family: Gilroy-Bold;
+        font-weight: 800;
+        line-height: 86px;
+    }
+    #about img{
+        width:100%;
+    }
+
+    #toolkit h1 {        
+        font-size: 35px;
+        line-height: 44px;
+        width:100%;
+    }
+
+    #toolkit .swiper-wrapper .swiper-slide {
+        min-height: 311px;
+        border-radius: 10px;
+        background-color: #FFFFFF;
+        text-align: center;
+        padding: 10% 8%;
+    }
+    #toolkit .swiper-container {
+        width: 96%;        
+        min-height: 435px;
+        margin-top:10px;        
+        margin-left:0%;
+        /* background-color: cornflowerblue; */
+    }
+    #toolkit .swiper-pagination {
+        margin-left: 0%;
+        margin-bottom: 20px;
+    }
+    #feeds {        
+        min-height: 83vh;        
+        background: url('../images/callback.png');
+        background-size:cover;
+    }
+
+    #feeds .feeds-title .feeds-motto {
+        font-size: 36px;
+        color: #FFFFFF;
+        font-family: Gilroy-Bold;
+        font-weight: 800;
+        line-height: 44px;
+    }
+    #feeds .feed-form {
+        padding: 9%;
+        margin-top: 0%;
+        min-height: 353px;
+        margin-left:1%;
+    }
+    #footer .cpr p {
+        color: #808386;
+        text-align: center;
+    }
+    #footer .phone {
+        padding-top: 8%;
+        text-align: center;
+    }
+}

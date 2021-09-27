@@ -1,0 +1,36 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@700&display=swap');
+:root {
+    --textBlack: #3F3D56;       
+    --main : #2ECC71;
+  }
+
+  .raes-button{
+    box-shadow: 1px 2px 5px #888888;
+  }
+
+  .ijo-miki{
+    color: var(--colorMiki);
+  }
+
+  .btn-miki{
+    background-color: var(--colorMiki);
+    color: #ffffff;
+  }
+
+  .myseparator{
+    width: 67px;
+    height: 5px;
+    background-color: var(--main);
+    border-radius: 20px;
+    margin-bottom:32px;
+  }
+
+  .card-project{
+    width: 100%;
+    min-height:100px;    
+    margin:15px ​0px;
+  }
+
+  .card-project img{
+    width:100%;
+  }

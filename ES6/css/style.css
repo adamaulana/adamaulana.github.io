@@ -1,0 +1,278 @@
+*, body {
+	font-family: Poppins;
+	font-size: 13px;
+}
+
+nav .nav-link {
+	padding: 7px 30px !important; 
+	font-weight: bold;
+	font-size: 14px;
+}
+
+nav .masuk {
+	background: #8BC34B;
+	padding-left: 45px !important;
+	padding-right: 45px !important;
+	color: white !important;
+}
+
+#mynavbar{
+	padding-left:8%;
+	padding-right:4%;
+	background-color: #F8E01E;
+}
+
+
+.navbar-brand img{
+	margin:20px;
+}
+.content-intro{
+	padding:0.5px;
+	min-height:50vh;
+	background-color: #F8E01E;
+	border-radius: 0px 0px 40px 40px;
+}
+
+.content-intro-detail{
+	padding:0.5px;
+	min-height:35vh;
+	background-color: #F8E01E;
+	border-radius: 0px 0px 40px 40px;
+}
+.content-intro-detail h2{
+	margin-top:7%;	
+	font-size: 36px;
+	color: #000000;
+}
+.content-intro h2{
+	margin-top:10%;		
+	font-size: 36px;
+	color: #000000;
+}
+
+.content-intro p{
+	font-size: 17px;
+}
+
+.content-materi {
+	margin-top:-5%;
+	min-height:80vh;
+}
+.content-materi .card-es{	
+	padding: 35px 42px;
+	widows: 100%;
+	min-height:140px;	
+	background: #FFFFFF;
+	box-shadow: 0px 2px 3px rgba(0, 0, 0, 0.25);
+	border-radius: 10px;
+	margin-bottom:10px;
+}
+
+.btn-es{
+	width: 50%;
+	padding:10px 20px;
+	box-shadow: 0px 2px 3px rgba(0, 0, 0, 0.25);
+	background: #F8E01E;
+	border-radius: 2px;
+}
+
+.compiler{
+	width:100%;
+	min-height:60vh;
+}
+
+.content-intro .s {	
+	
+	box-shadow: 1px 2px 5px #888888;
+}
+
+.content-spesial {
+	font-size: 14px;
+}
+
+.content-spesial h2{
+	margin-top:5%;
+	font-size:36px;
+	color:var(--textBlack);
+}
+
+.content-project-scope {
+	font-size: 14px;
+}
+
+.content-project-scope img{
+	width:77%;
+}
+
+.content-project-scope .s{
+	box-shadow: 1px 2px 5px #888888;
+}
+
+.footer {
+	background:#fff;
+	font-size: 11px;
+}
+
+.form-control:focus {
+	box-shadow: none;
+}
+
+.tab-content {
+	display: contents;
+}
+/*--------------------AMBIL PROYEK------------------------*/
+.content-intro-ambil-proyek {
+	margin-top: 10% !important;
+}
+.content-intro-ambil-proyek .s {
+	background-color: #8BC34B !important;
+	color: white;
+	box-shadow: 1px 2px 5px #888888;
+}
+
+.content-ambil-proyek .s {
+	background-color: #8BC34B !important;
+	color: white;
+}
+
+.content-intro-ambil-proyek .s:hover, .content-ambil-proyek .s:hover {
+	background-color: #77ab3c !important;
+}
+
+p.card-text {
+	font-size: small;
+}
+
+p.card-text span {
+	color: #8BC34B;
+}
+
+.card a {
+	align-self: center;
+	white-space: nowrap;
+ 	overflow: hidden;
+    text-overflow: ellipsis;
+	font-size: x-small;
+}
+
+.nav-tabs .nav-link {
+	border: none;
+	color: #495057;
+	font-size: 14px;
+}
+
+.nav-tabs {
+	border-bottom: none;
+}
+
+.nav-tabs .nav-item.show .nav-link, .nav-tabs .nav-link.active {
+	border-bottom: 2px solid #888888;
+}
+
+/*--------------------KURSUS------------------------*/
+
+.content-kursus{ 
+	margin-top: 10% !important;
+}
+.content-kursus .search input {
+	border-right: none;
+}
+
+.content-kursus .search button {
+	border: 1px solid #ced4da;
+	border-left: none;
+}
+
+.content-kursus .filter button {
+	width: max-content;
+}
+
+.content-kursus-bawah .nav-tabs .nav-link {
+	color: #495057;
+	box-shadow: 1px 2px 5px 0px #b3b3b3;
+	border-radius: 7px;
+	margin-right: 7px;
+	padding-left: 40px;
+	padding-right: 40px;
+	margin-bottom: 10px;
+}
+
+.content-kursus-bawah .nav-tabs {
+	border-bottom: none;
+}
+
+.content-kursus-bawah .nav-tabs .nav-item.show .nav-link, .content-kursus-bawah .nav-tabs .nav-link.active {
+	border-bottom: none;
+	background-color: #01C6F1;
+	color: white;
+}
+
+/*--------------------DETAIL KURSUS------------------------*/
+
+.content-intro-detail-kursus{
+	margin-top:12% !important;
+}
+
+.content-detail-kursus .card-text {
+	color: #8BC34B;
+    font-weight: bolder;
+}
+
+/*--------------------ONLINE KURSUS------------------------*/
+
+.content-online-kursus{
+	margin-top:10%;
+}
+
+.content-online-kursus button {
+	border-radius: 15px;
+	box-shadow: 2px 2px 4px #9c9c9c;
+}
+
+/*--------------------LOGIN------------------------*/
+
+.bg-login {
+	background-image: url('../img/bg-login.jpg');
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.login {
+	margin-top: 16%;
+	width: 60%;
+	padding:20px 20px 30px 20px;
+}
+
+#login .form-group{
+	width:100%;
+}
+
+#login .btn{
+	padding: 17px;
+	margin-bottom:2px;;	
+}
+.login img {
+	width: 40%;
+}
+
+.login-intro h1{
+	font-size:40px;
+	margin-top:18%;
+}
+.login-intro p{
+	color:white;
+	width:60%;
+	font-size:20px;;
+}
+
+.login input {
+	padding: 25px 20px;
+}
+
+/* ---- custom card ----------------- */
+.card{
+	cursor: pointer;
+}
+.card-body{
+	height: 130px;
+}

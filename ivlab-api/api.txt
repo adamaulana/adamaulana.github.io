@@ -1,0 +1,90 @@
+IVLAB API
+
+Link API : https://desa-pintar.id/ivlab/public/api/
+Directory Image Cover Produk : https://desa-pintar.id/ivlab/public/cover_produk/
+Directory Image Cover Pelatihan : https://desa-pintar.id/ivlab/public/cover_pelatihan/
+Directory Image Icon kategori : https://desa-pintar.id/ivlab/public/icon_kategori/
+
+[ PRODUK ]
+GET Produk
+Endpoint : /getProduk
+
+POST Tambah Produk
+Endpoint : /tambahproduk
+Param : nama_produk, deskripsi_produk, id_bumdes, foto_produk, kategori, harga
+
+GET Produk By Id
+Endpoint : /getProdukById/{id}
+
+GET Proudk By Id Bumdes
+Endpoint : /getProdukByIdBumdes/{id}
+
+
+GET Produk berdasarkan kategori
+Endpoint : /getProdukByKategori/{id_kategori}
+
+POST Mencari Produk dan Pelatihan dari kolom pencarian
+Endpoint : /searchProduk
+Param : keyword
+
+POST Mencari Produk  dari kolom pencarian
+Endpoint : /searchingProduk
+Param : keyword
+
+GET Kategori Produk 
+Endpoint : /getKategori
+
+POST Menambahkan Kategori Produk
+ENdpoint : /uploadKategori
+Param : nama_kategori,icon_kategori(file) 
+[ PELATIHAN ]
+GET Pelatihan
+Endpoint : /getPelatihan
+
+GET All Pelatihan ( Data pelatihan langsung dengan video)
+Endpoint : /getAllPelatihan
+
+GET Pelatihan By Id
+Endpoint : /getPelatihanById/{id}
+
+GET Pelatihan Terenroll By Id BUMDES
+Endpoint : /getPelatihanByEnroll/{id_bumdes}
+
+GET Detail Pelatihan
+Endpoint : getDetailPelatihan/{id}
+
+GET Detail Materi
+Endpoint : getDetailMateri/{id_materi}
+
+
+POST Enroll Pelatihan
+Endpoint  : /enrollPelatihan
+Param : id_bumdes,id_pelatihan
+
+POST Mencari Pelatihan  dari kolom pencarian
+Endpoint : /searchingPelatihan
+Param : keyword
+
+[ BUMDES ]
+POST Registrasi
+Endpoint : /registrasi
+Param : nama_bumdes,desa,email,password,provinsi,kabupaten,kecamatan
+
+
+GET Provinsi
+Endpoint : /getProvinsi
+
+GET Kabupaten
+Endpoint : /getKabupaten/{id_provinsi}
+
+GET Kecamatan
+Endpoint : /getKecamatan/{id_kabupaten}
+
+POST Login
+Endpoint : /login
+Param : email,password
+
+POST Update Profil Bumdes
+Endpoint : /update
+Param : id,email,password,nama_bumdes,desa,lat,longi
+

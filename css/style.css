@@ -1,0 +1,96 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Nunito:wght@600&display=swap'); */
+
+body {
+	font-family: Poppins;
+	font-size: 13px;
+}
+
+nav .nav-link {
+	padding: 7px 30px !important; 
+	font-weight: bold;
+	font-size: 14px;
+}
+
+nav .masuk {
+	background: #8BC34B;
+	padding-left: 45px !important;
+	padding-right: 45px !important;
+	color: white !important;
+}
+
+#mynavbar{
+	padding-left:8%;
+	padding-right:4%;	
+}
+
+
+.navbar-brand img{
+	margin:50px 0px;
+	width: 100px;
+}
+.content-intro{
+	padding:0.5px;
+	min-height:60vh;		
+}
+
+.content-intro h2{
+	margin-top:5%;		
+	font-size: 51px;
+	color: #2e2e2e;
+}
+
+.content-intro .btn{
+	background-color: var(--main);
+	color:#fff;
+}
+
+.content-intro h3{
+	font-size: 20px;
+}
+
+.content-intro .sosmed img{
+	width:50px;
+	display: inline-block;
+	margin:5px;
+}
+
+.content-portofolio{
+	padding-top:8%;
+}
+.content-portofolio h3{
+	font-size:30px;
+	font-family: 'Nunito', sans-serif;
+	font-weight: 700;
+	margin-bottom:6px;
+}
+
+.lg-card{
+	padding:10px;
+}
+.lg-card p{
+	cursor: pointer;;
+	font-family: 'Nunito', sans-serif;
+	font-size:17px;
+	margin:8px 0px;
+	color: black;
+}
+
+.lg-card a{
+	text-decoration:none;
+}
+
+
+
+/* responsive */
+
+@media only screen and (max-width: 592px) {
+	.content-intro{
+		min-height:40vh ;
+	}
+	.content-intro .hello-sect{
+		margin:5% ;
+	}
+	.content-intro .photo-sect{
+		display: none;
+	}
+  }

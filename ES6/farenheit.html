@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Rozann</title>
+</head>
+<body>
+<label>Farenheit</label>
+<input type="number" id="faren"> <br>
+<label>Celcius</label>
+<input type="number" id="cel"> <br>
+<button id="convert">Konversi</button>
+<script src="https://code.jquery.com/jquery-3.5.1.js" integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc=" crossorigin="anonymous"></script>
+<script type="text/javascript">
+	$(document).ready(function(){
+		$("#convert").click(function(){
+			var a = $('#faren').val();
+			var b = $('#cel').val();
+			var nilaiF = parseInt(a);
+			var nilaiC = parseInt(b);
+			var hasilF, hasilC;
+			if(a =='' && b != ''){
+				hasilF = ((9*nilaiC)/5)+ 32;
+				alert(hasilF);
+			}else if(b =='' && a != ''){
+				hasilC = ((5*nilaiF)/9)- 32;
+				alert(hasilC);
+			}else if(a == '' && b == ''){
+					alert('salah satu field harus diisi');
+			}else{
+				alert('harus diisi salah satu');
+			}
+		});
+	});
+
+</script>
+</body>
+</html>
