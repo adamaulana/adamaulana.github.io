@@ -1,0 +1,163 @@
+/* import font */
+
+:root
+{
+
+    --darkblue : #202B48; 
+    --radialorange : #FFA144;
+    --sawit:#EDC75C;
+}
+
+/* basic navbar */
+#myNavbar{
+    padding: 20px;
+    padding-left: 5%;
+    padding-right: 5%;
+    padding-top: 10px;
+    background-color: rgba(255, 255, 255, 0.2);
+    backdrop-filter: blur(8px);
+}
+
+#myNavbar{
+    font-family: Poppins;
+    font-weight: 400;}
+    #myNavbar .navbar-toggle{
+        color: rgb(73, 73, 73);
+    }
+    #myNavbar .navbar-brand{
+        margin-right: 6rem;
+    }
+    #myNavbar .active{
+        font-weight:700;
+    }
+    #myNavbar .nav-link{
+        text-decoration: none;
+        font-size: 14px;
+        margin-right: 44px;
+        color:#FFFFFF;
+        font-family: Poppins;  
+        font-weight:400;      
+    }
+    #myNavbar .btn-regis{
+        text-decoration: none;
+        color: #FFFFFF;
+        font-weight: 700;
+        width: 123px;
+        padding: 10px;
+        text-align: center;
+        font-size:14px;
+        background-color:var(--darkblue);
+        border-radius:20px;        
+    }
+
+    #myNavbar .navbar-brand img{
+        width:40px;
+    }
+    
+
+
+    #head-cover{
+        min-height:100vh;
+        background: url('../images/home.jpg');
+        background-size: 100%;}
+
+        #head-cover .backdrop{
+            background-color: rgba(0, 0, 0, 0.47);
+            width:100%;
+            height:100vh;
+            padding:0.1px;
+        }
+        #head-cover .backdrop h1{
+            font-family: 'Poppins';
+            font-weight: 900;
+            color: var(--sawit);
+            font-size: 55px;
+            margin-top: 18%;
+            letter-spacing: 8px;
+        }
+
+        #head-cover .backdrop .subtitle{
+            color:white;
+            font-family: 'Poppins';
+            font-weight: 400;
+            font-size: 29px;
+        }
+        #head-cover .backdrop .subtitle .bolder{
+            font-size: 32px;
+            font-weight:700;
+            color: var(--sawit);
+        }
+
+        #head-cover .backdrop img{
+            width:100px;
+            margin-top: 7%;
+        }
+
+        #konten-sawit{
+            min-height:300vh;
+            background-size: cover;
+            background:url('../images/bg.png');
+        }
+        #konten-sawit .backdrop{
+            background-color: rgba(0, 0, 0, 0.3);
+            width:100%;
+            height: 200vh;
+        }
+        #konten-sawit .dampak-sawit{
+            padding-top: 8%;
+            padding-right:5%;
+            padding-left:5%;
+        }
+        #konten-sawit .card-sawit .cover{
+            width: 284px;
+            height: 274px;
+            border-radius: 34px            
+        }
+
+        #konten-sawit .card-sawit h3{
+            font-family: 'Poppins';
+            font-size:18px;
+            font-weight:700;
+            color: var(--sawit);
+            margin:18px;
+        }
+
+        
+        #konten-sawit .card-sawit p{
+            font-family: 'Poppins';
+            font-size:15px;
+            font-weight:500;
+            color:#FFFFFF;  
+                      
+        }
+
+        #konten-sawit .card-sawit .bt-baca-lengkap{
+            border:4px solid #FFFFFF;
+            padding:15px 25px;
+            font-family: 'Poppins';
+            text-align: center;
+            font-size:15px;
+            font-weight: 500;
+            color: #fff;            
+            text-decoration: none;
+            border-radius :9px;            
+        }
+        
+        #konten-sawit .card-sawit .bt-baca-lengkap:hover{
+            transition-duration: 0.5s;
+            background-color:#4B634C;
+            border: 4px solid #4B634C;
+        }
+
+
+
+/* responsive */
+@media only screen and (max-width:720px){
+    #myNavbar {
+        padding: 6px;
+        padding-left: 3%;
+        padding-right: 10%;
+        padding-top: 20px;
+    }
+   
+}
