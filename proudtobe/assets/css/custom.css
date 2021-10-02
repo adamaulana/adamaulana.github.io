@@ -108,6 +108,9 @@
             padding-right:5%;
             padding-left:5%;
         }
+        #konten-sawit .card-sawit{
+            width:50%;;
+        }
         #konten-sawit .card-sawit .cover{
             width: 284px;
             height: 274px;
@@ -148,7 +151,22 @@
             background-color:#4B634C;
             border: 4px solid #4B634C;
         }
+        
+        #konten-sawit .swiper-wrapper{
+            min-height:80vh;
+        }
 
+        #validasi-sawit{
+            padding-left: 7%;
+            padding-right: 7%;
+        }
+        
+        #validasi-sawit h2{
+            font-family: 'Poppins';
+            font-weight: 700;
+            font-size: 50px;
+            color: #FFFFFF;
+        }
 
 
 /* responsive */
