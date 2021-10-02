@@ -106,19 +106,67 @@
                   </div>              
               </div>
               <div class="swiper-pagination"></div>
-          </div>
+            </div>
             <div class="row" id="validasi-sawit">
               <div class="col-md-8">
                 <h2>APAKAH KE 5 HAL TERSEBUT SEPENUHNYA BENAR ?</h2>                
-                <P> Inilah tujuan kami, <span>PROUD TO BE SUSTAINABLE</span> hari untuk meluruskan pandangan tersebut.</P>
+                <P> Inilah tujuan kami, <span class="bolder">PROUD TO BE SUSTAINABLE</span> hari untuk meluruskan pandangan tersebut.</P>
               </div>
-              <div class="col-md-4">
-                <div class="cover"></div>
+              <div class="col-md-4 text-center">
+                <div class="cover mt-3" style="background:url('assets/images/sawit.jpg');background-size:cover;"></div>
               </div>
 
-              <div class="text-center col-md-12">
-                Kelapa sawit bukanlah sebuah industri atau pun aktivitas jahat yang hanya membawa dampak negative ke masyarakat. Bahkan Industri kelapa 
-                sawit memiliki banyak sekali <span>POTENSI</span> yang menguntungkan, <span>JIKA DIOLAH DENGAN BENAR !</span>
+              <div class="col-md-12">
+                <center>
+                <p class="validation-desc mt-5">
+                  Kelapa sawit bukanlah sebuah industri atau pun aktivitas jahat yang hanya membawa dampak negative ke masyarakat. Bahkan Industri kelapa 
+                  sawit memiliki banyak sekali <span class="bolder">POTENSI</span> yang menguntungkan, <span class="bolder">JIKA DIOLAH DENGAN BENAR !</span>
+                </p>
+              </center>
+              </div>
+
+              <div class="col-md-12">
+                  <center>
+                  <p class="solution-desc">
+                    Bersama kampanye <span class="bolder">#KENALILEBIHDEKAT</span> , kami  berkomitmen  untuk memberi edukasi yang benar tentang industry kelapa sawit.
+                    <br> <br>
+                    Beberapa poin yang akan menjadi fokus dari komunitas ini yaitu :
+                  </p>
+                </center>
+              </div>
+
+              <div class="col-md-12 mt-5" id="poin-sawit">
+                <div class="poin-sawit-swiper">
+                  <div class="swiper-wrapper">
+                      <div class="swiper-slide card-poin">
+                          <center>
+                            <div class="cover" style="background:url('assets/images/dampak1.jpg');background-size:cover;"></div>
+                            
+                          </center>
+                      </div>
+    
+                      <div class="swiper-slide card-poin">
+                        <center>
+                          <div class="cover" style="background:url('assets/images/dampak2.jpg');background-size:cover;"></div>                        
+                        </center>
+                      </div>
+    
+                      <div class="swiper-slide card-poin">
+                        <center>
+                          <div class="cover" style="background:url('assets/images/dampak3.jpg');background-size:cover;"></div>                       
+                        </center>
+                      </div>              
+
+                      <div class="swiper-slide card-poin">
+                        <center>
+                          <div class="cover" style="background:url('assets/images/dampak3.jpg');background-size:cover;"></div>                       
+                        </center>
+                      </div>   
+                  </div>                
+                </div>
+                <center>
+                <div class="swiper-poin-pagination"></div>
+               </center>
               </div>
             </div>
           </div>
@@ -140,7 +188,7 @@
         loop: true,
         spaceBetween: 40,
         autoplay: {
-          delay: 2000,
+          delay:1000,
         },        
         pagination: {
           clickable : 'true',
@@ -167,6 +215,42 @@
 
       });
     </script>
+
+<script>
+  const poin_swiper = new Swiper('.poin-sawit-swiper', {
+    // Optional parameters
+    direction: 'horizontal',
+    
+    slidesPerView: 1,      
+    spaceBetween: 40,
+    autoplay: {
+      delay:1000,
+    },        
+    pagination: {
+      clickable : 'true',
+      el    : '.swiper-poin-pagination',
+      type  : 'bullets',
+    },
+    breakpoints: {
+      // when window width is >= 320px
+      320: {
+        slidesPerView: 1,
+        spaceBetween: 60
+      },
+      // when window width is >= 480px
+      480: {
+        slidesPerView: 2,
+        spaceBetween: 30
+      },
+      // when window width is >= 640px
+      640: {
+        slidesPerView: 2,
+        spaceBetween: 100
+      }
+    }
+
+  });
+</script>
     <!--
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>

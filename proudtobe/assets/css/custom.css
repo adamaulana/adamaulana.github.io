@@ -8,6 +8,15 @@
     --sawit:#EDC75C;
 }
 
+  
+.bolder{            
+    font-weight: 700;
+    color: var(--sawit);
+}
+
+.container-fluid{
+    overflow-x: hidden;
+}
 /* basic navbar */
 #myNavbar{
     padding: 20px;
@@ -94,14 +103,15 @@
         }
 
         #konten-sawit{
-            min-height:300vh;
+            min-height:200px;
             background-size: cover;
             background:url('../images/bg.png');
         }
         #konten-sawit .backdrop{
             background-color: rgba(0, 0, 0, 0.3);
             width:100%;
-            height: 200vh;
+            min-height: 200px;
+            padding-bottom:5%;
         }
         #konten-sawit .dampak-sawit{
             padding-top: 8%;
@@ -109,7 +119,7 @@
             padding-left:5%;
         }
         #konten-sawit .card-sawit{
-            width:50%;;
+            width:50%;
         }
         #konten-sawit .card-sawit .cover{
             width: 284px;
@@ -159,6 +169,7 @@
         #validasi-sawit{
             padding-left: 7%;
             padding-right: 7%;
+            padding-top: 10%;
         }
         
         #validasi-sawit h2{
@@ -166,6 +177,70 @@
             font-weight: 700;
             font-size: 50px;
             color: #FFFFFF;
+            margin-top:10%;
+        }
+
+        #validasi-sawit p{
+            width: 80%;
+            font-family: 'Poppins';
+            font-size: 21px;
+            color: #FFFFFF;
+            font-weight: 500;
+            letter-spacing: 3px;
+            margin-top: 25px;
+        }
+
+        
+        #validasi-sawit p .bolder{            
+            font-weight: 700;
+            color: var(--sawit);
+        }
+        
+        #validasi-sawit  .cover{
+            width: 284px;
+            height: 274px;
+            border-radius: 34px;                    
+        }
+
+        #validasi-sawit .validation-desc{
+            width:80%;
+            font-family: 'Poppins';
+            color:white;
+            font-size: 15px;
+            color: #FFFFFF;
+            font-weight: 500;
+        }
+
+        
+        #validasi-sawit .solution-desc{
+            width:68%;
+            font-family: 'Poppins';
+            color:white;
+            font-size: 15px;
+            color: #FFFFFF;
+            font-weight: 500;
+            margin-top:10%;
+        }
+
+        #poin-sawit .card-poin{
+            width:50%;
+        }
+        #poin-sawit .card-poin .cover{
+            width: 446px;
+            height: 274px;
+            border-radius: 34px ;                       
+        }
+
+        #poin-sawit .poin-sawit-swiper{
+            margin-left:23%;
+        }
+
+        #poin-sawit .swiper-wrapper{
+            min-height: 10px;
+        }
+
+        #poin-sawit .swiper-poin-pagination{
+            margin-top: 50px;
         }
 
 
