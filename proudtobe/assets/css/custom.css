@@ -94,7 +94,8 @@
             color:white;
             font-family: 'Poppins';
             font-weight: 400;
-            font-size: 29px;
+            font-size: 23px;
+            width:70%;
         }
         #head-cover .backdrop .subtitle .bolder{
             font-size: 32px;
@@ -118,6 +119,21 @@
             min-height: 200px;
             padding-bottom:5%;
         }
+
+
+        #konten-sawit .backdrop .subtitle{
+            color:white;
+            font-family: 'Poppins';
+            font-weight: 400;
+            font-size: 29px;
+            margin-bottom:2%;
+        }
+        #konten-sawit .backdrop .subtitle .bolder{
+            font-size: 32px;
+            font-weight:700;
+            color: var(--sawit);
+        }
+
         #konten-sawit .dampak-sawit{
             padding-top: 8%;
             padding-right:5%;
@@ -230,7 +246,7 @@
         }
 
         #poin-sawit .card-poin{
-            width:50%;
+            margin-bottom:5%;
         }
         #poin-sawit .card-poin .cover{
             width: 546px;
