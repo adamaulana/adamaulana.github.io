@@ -18,13 +18,14 @@
     overflow-x: hidden;
 }
 /* basic navbar */
-#myNavbar{
+
+#myNavbar {
     padding: 20px;
     padding-left: 5%;
     padding-right: 5%;
-    padding-top: 10px;
-    background-color: rgba(255, 255, 255, 0.2);
-    backdrop-filter: blur(8px);
+    padding-top: 41px;
+    background-color: rgb(255 255 255 / 0%);
+    position: fixed;
 }
 
 #myNavbar .navbar-toggler{
@@ -65,7 +66,7 @@
     }
 
     #myNavbar .navbar-brand img{
-        width:40px;
+        width:66px;
     }
     
 
