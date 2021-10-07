@@ -25,7 +25,7 @@
     padding-right: 5%;
     padding-top: 41px;
     background-color: rgb(255 255 255 / 0%);
-    position: fixed;
+    position: absolute;    
 }
 
 #myNavbar .navbar-toggler{
@@ -96,7 +96,7 @@
             font-family: 'Poppins';
             font-weight: 400;
             font-size: 23px;
-            width:70%;
+            width:72%;
         }
         #head-cover .backdrop .subtitle .bolder{
             font-size: 32px;
@@ -345,16 +345,17 @@
         font-size: 12px;
         color: #FFFFFF;
         font-weight: 500;  
-        width:50%;
-        text-align:left;     
+        width:100%;
+        text-align:center;     
     }
 
-    #contact .futer .sosmed{
-        float:right;
-        text-align:right;
+    #contact .sosmed{        
+        margin-top:43px;
+        text-align:center;
+        vertical-align: middle;
     }
-    #contact img{
-        width: 21px;
+    #contact .sosmed img{
+        width: 23px;
         margin-right: 20px;
         display: inline-block;    
     }
@@ -389,7 +390,7 @@
         font-weight: 900;
         color: var(--sawit);
         font-size: 38px;
-        margin-top: 78%;
+        margin-top: 55%;
         letter-spacing: 0px;
         padding-right: 10%;
         padding-left: 10%;
@@ -492,9 +493,9 @@
     }
 
     #contact .futer .sosmed {        
+        margin-top: 43px;
         text-align: center;
-        width: 100%;
-        float: none;
+        vertical-align: middle;
     }
 
     #contact img {
@@ -619,8 +620,8 @@
         font-size: 19px;
         color: #FFFFFF;
         font-weight: 500;
-        width: 50%;
-        text-align: left;
+        width: 100%;
+        text-align: center;    
     }
 
     #contact .join-telegram {
@@ -633,5 +634,16 @@
         color: #fff;
         text-decoration: none;
         border-radius: 9px;
+    }
+
+    #contact .sosmed{        
+        margin-top:70px;
+        text-align:center;
+        vertical-align: middle;
+    }
+    #contact .sosmed img{
+        width: 40px;
+        margin-right: 20px;
+        display: inline-block;    
     }
 }
