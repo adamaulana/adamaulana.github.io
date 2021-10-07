@@ -129,11 +129,6 @@
             font-size: 29px;
             margin-bottom:2%;
         }
-        #konten-sawit .backdrop .subtitle .bolder{
-            font-size: 32px;
-            font-weight:700;
-            color: var(--sawit);
-        }
 
         #konten-sawit .dampak-sawit{
             padding-top: 8%;
@@ -199,17 +194,15 @@
             font-family: 'Poppins';
             font-weight: 700;
             font-size: 50px;
-            color: #FFFFFF;
-            margin-top:10%;
+            color: #FFFFFF;            
         }
 
         #validasi-sawit p{
             width: 80%;
             font-family: 'Poppins';
-            font-size: 21px;
+            font-size: 17px;
             color: #FFFFFF;
-            font-weight: 500;
-            letter-spacing: 3px;
+            font-weight: 500;            
             margin-top: 25px;
         }
 
@@ -218,11 +211,11 @@
             font-weight: 700;
             color: var(--sawit);
         }
-        
+
         #validasi-sawit  .cover{
             width: 284px;
             height: 274px;
-            border-radius: 34px;                    
+            border-radius: 34px;                             
         }
 
         #validasi-sawit .validation-desc{
@@ -239,10 +232,20 @@
             width:68%;
             font-family: 'Poppins';
             color:white;
-            font-size: 15px;
+            font-size: 20px;
             color: #FFFFFF;
             font-weight: 500;
             margin-top:10%;
+        }
+
+        #validasi-sawit .solution-desc-sub{
+            width:68%;
+            font-family: 'Poppins';
+            color:white;
+            font-size: 17px;
+            color: #FFFFFF;
+            font-weight: 500;
+            margin-top:2%;
         }
 
         #poin-sawit .card-poin{
@@ -444,8 +447,7 @@
         font-family: 'Poppins';
         font-size: 17px;
         color: #FFFFFF;
-        font-weight: 500;
-        letter-spacing: 0px;
+        font-weight: 500;        
         margin-top: 25px;
     }    
 
@@ -528,6 +530,14 @@
         margin: 18px;
     }
 
+    #konten-sawit .backdrop .subtitle{
+        color:white;
+        font-family: 'Poppins';
+        font-weight: 500;
+        font-size: 45px;
+        margin-bottom:2%;
+    }
+
     #konten-sawit .card-sawit p {
         font-family: 'Poppins';
         font-size: 24px;
@@ -554,8 +564,32 @@
         width: 68%;
         font-family: 'Poppins';
         color: white;
-        font-size:22px;
+        font-size:30px;
     }
+
+    #validasi-sawit .solution-desc-sub{
+        width:68%;
+        font-family: 'Poppins';
+        color:white;
+        font-size: 24px;
+        color: #FFFFFF;                
+    }
+
+    #validasi-sawit .cover {
+        width: 80%;
+        height: 416px;
+        border-radius: 34px;
+    }
+
+    #validasi-sawit p{
+        width: 80%;
+        font-family: 'Poppins';
+        font-size: 26px;
+        color: #FFFFFF;
+        font-weight: 500;            
+        margin-top: 2;
+    }
+
     #poin-sawit .card-poin .cover {
         width: 94%;
         height: 334px;
@@ -573,7 +607,7 @@
         width: 68%;
         font-family: 'Poppins';
         color: white;
-        font-size: 23px;
+        font-size: 26px;
         color: #FFFFFF;
         font-weight: 500;
         text-align: center;
@@ -587,5 +621,17 @@
         font-weight: 500;
         width: 50%;
         text-align: left;
+    }
+
+    #contact .join-telegram {
+        border: 4px solid #FFFFFF;
+        padding: 27px 83px;
+        font-family: 'Poppins';
+        text-align: center;
+        font-size: 23px;
+        font-weight: 500;
+        color: #fff;
+        text-decoration: none;
+        border-radius: 9px;
     }
 }
