@@ -278,16 +278,16 @@
             opacity:1;
         }
 
-        #poin-sawit .poin-sawit-swiper{
+        /* #poin-sawit .poin-sawit-swiper{
             margin-left:23%;
-        }
+        } */
 
         #poin-sawit .swiper-wrapper{
             min-height: 10px;
         }
 
         #poin-sawit .swiper-poin-pagination{
-            margin-top: 50px;
+            margin-top: 30px;
         }
     #contact{
         
@@ -441,6 +441,7 @@
 
     #validasi-sawit h2 {
         font-size: 39px;
+        text-align: center;
     }
 
     #validasi-sawit p {
@@ -450,6 +451,7 @@
         color: #FFFFFF;
         font-weight: 500;        
         margin-top: 25px;
+        text-align:center;
     }    
 
     #poin-sawit .card-poin .cover{

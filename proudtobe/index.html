@@ -37,7 +37,9 @@
               Kelapa sawit sempat berada di puncak kemakmurannya pada tahun 1970 an. <br>
               Namun dibalik kesuksesan sawit tersebut. banyak juga yang mengecam dan menolak industri ini.
             </p>
-            <img src="assets/images/Path 2.png">
+            <a href="#konten-sawit">
+              <img src="assets/images/Path 2.png">
+            </a>
           </center>
           </div>
         </section>
@@ -204,7 +206,7 @@
                 
                   <div class="row">
                       <div class="col-md-6 col-12">
-                        <div class="card-poin">
+                        <div class="card-poin d-none d-md-block d-lg-block">
                           <center>
                             <div class="cover" style="background:url('assets/images/masak.jpg');background-size:cover;">
                               <div class="cpt">
@@ -217,7 +219,7 @@
                       </div>
     
                       <div class="col-md-6 col-12">
-                        <div class="card-poin">
+                        <div class="card-poin d-none d-md-block d-lg-block">
                           <center>
                             <div class="cover" style="background:url('assets/images/snack2.jpg');background-size:cover;">
                               <div class="cpt">
@@ -229,7 +231,7 @@
                       </div>
     
                       <div class="col-md-6 col-12">
-                          <div class="card-poin">
+                          <div class="card-poin d-none d-md-block d-lg-block">
                           <center>
                             <div class="cover" style="background:url('assets/images/demo.jpg');background-size:cover;">
                               <div class="cpt">
@@ -241,7 +243,7 @@
                       </div>
 
                       <div class="col-md-6 col-12">
-                          <div class="card-poin">
+                          <div class="card-poin d-none d-md-block d-lg-block">
                           <center>
                             <div class="cover" style="background:url('assets/images/potensi.jpeg');background-size:cover;">
                               <div class="cpt">
@@ -252,7 +254,66 @@
                         </div>   
                       </div>
                   </div>                
-                
+                  
+                    <div class="row d-block d-sm-none">
+                      <div class="col-md-12 col-12 poin-sawit-swiper">
+                        <div class="swiper-wrapper">
+                          <div class="swiper-slide">
+                            <div class="card-poin">
+                              <center>
+                                <div class="cover" style="background:url('assets/images/masak.jpg');background-size:cover;">
+                                  <div class="cpt">
+                                    Keuntungan menggunakan produk kelapa sawit dibandingkan produk lainnya
+                                  </div>
+                                </div>
+                                
+                              </center>
+                            </div>
+                          </div>       
+
+                          <div class="swiper-slide">
+                            <div class="card-poin">
+                              <center>
+                                <div class="cover" style="background:url('assets/images/snack2.jpg');background-size:cover;">
+                                  <div class="cpt">
+                                    Beberapa produk kelapa sawit di kehidupan sehari hari dan manfaatnya 
+                                  </div>                                                        
+                                </div>                        
+                              </center>
+                            </div>
+                          </div> 
+
+                          <div class="swiper-slide">
+                            <div class="card-poin">
+                              <center>
+                                <div class="cover" style="background:url('assets/images/demo.jpg');background-size:cover;">
+                                  <div class="cpt">
+                                    Pola pandang yang salah tentang industry kelapa sawit dan juga faktanya
+                                  </div>                                                        
+                                </div>                        
+                              </center>
+                            </div>
+                          </div> 
+
+                          <div class="swiper-slide">
+                            <div class="card-poin">
+                              <center>
+                                <div class="cover" style="background:url('assets/images/potensi.jpeg');background-size:cover;">
+                                  <div class="cpt">
+                                    Potensi mendapatkan penghasilan dari industri kelapa sawit yang bisa dilakukan siapa saja
+                                  </div>                                                        
+                                </div>                        
+                              </center>
+                            </div>
+                          </div>                     
+                          
+                        </div>
+                      </div>
+                      <center>
+                        <div class="swiper-poin-pagination">                            
+                      </center>
+                    </div>
+                </div>
                   
               </div>
             </div>
@@ -338,7 +399,7 @@
   const poin_swiper = new Swiper('.poin-sawit-swiper', {
     // Optional parameters
     direction: 'horizontal',
-    
+    loop:true,
     slidesPerView: 1,      
     spaceBetween: 40,
     autoplay: {
@@ -353,7 +414,7 @@
       // when window width is >= 320px
       320: {
         slidesPerView: 1,
-        spaceBetween: 300
+        spaceBetween: 60
       },
       // when window width is >= 480px
       480: {
