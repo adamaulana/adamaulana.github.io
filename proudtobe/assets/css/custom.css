@@ -198,12 +198,13 @@
         }
 
         #validasi-sawit p{
-            width: 80%;
+            width: 100%;
             font-family: 'Poppins';
             font-size: 17px;
             color: #FFFFFF;
             font-weight: 500;            
             margin-top: 25px;
+            text-align:justify
         }
 
         
@@ -579,18 +580,19 @@
     }
 
     #validasi-sawit .cover {
-        width: 80%;
-        height: 416px;
-        border-radius: 34px;
+        width: 71%;
+        height: 331px;
+        border-radius: 34px;        
     }
 
     #validasi-sawit p{
-        width: 80%;
+        width: 100%;
         font-family: 'Poppins';
         font-size: 26px;
         color: #FFFFFF;
         font-weight: 500;            
         margin-top: 2;
+        text-align : justify;
     }
 
     #poin-sawit .card-poin .cover {
