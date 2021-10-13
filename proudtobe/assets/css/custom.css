@@ -243,6 +243,7 @@
             color: #FFFFFF;
             font-weight: 500;
             margin-top:10%;
+            text-align: center;
         }
 
         #validasi-sawit .solution-desc-sub{
@@ -253,6 +254,7 @@
             color: #FFFFFF;
             font-weight: 500;
             margin-top:2%;
+            text-align: center;
         }
 
         #poin-sawit .card-poin{
@@ -582,6 +584,7 @@
         font-family: 'Poppins';
         color: white;
         font-size:30px;
+        text-align: center;
     }
 
     #validasi-sawit .solution-desc-sub{
@@ -589,7 +592,8 @@
         font-family: 'Poppins';
         color:white;
         font-size: 24px;
-        color: #FFFFFF;                
+        color: #FFFFFF;    
+        text-align: center;            
     }
 
     #validasi-sawit .cover {
