@@ -82,13 +82,19 @@
             height:100vh;
             padding:0.1px;
         }
-        #head-cover .backdrop h1{
+        #head-cover .backdrop h1{            
             font-family: 'Poppins';
+            font-weight: 600;
+            color: #ffffff;
+            font-size: 41px;
+            width: 80%;
+            margin-top: 12%;
+            letter-spacing: 8px;            
+        }
+
+        #head-cover .backdrop h1 .bolder{
             font-weight: 900;
             color: var(--sawit);
-            font-size: 55px;
-            margin-top: 18%;
-            letter-spacing: 8px;
         }
 
         #head-cover .backdrop .subtitle{
@@ -509,13 +515,20 @@
 }
 
 @media only screen and (min-width:1920px){
-    #head-cover .backdrop h1 {
+
+    #head-cover .backdrop h1{            
         font-family: 'Poppins';
+        font-weight: 600;
+        color: #ffffff;
+        font-size: 79px;
+        width: 80%;
+        margin-top: 12%;
+        letter-spacing: 8px;            
+    }
+
+    #head-cover .backdrop h1 .bolder{
         font-weight: 900;
         color: var(--sawit);
-        font-size: 79px;
-        margin-top: 18%;
-        letter-spacing: 8px;
     }
 
     #head-cover .backdrop .subtitle {
@@ -523,7 +536,7 @@
         font-family: 'Poppins';
         font-weight: 400;
         font-size: 35px;
-        width: 70%;
+        width: 72%;
     }
 
     #konten-sawit .card-sawit h3 {
