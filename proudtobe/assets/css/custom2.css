@@ -518,6 +518,10 @@
         padding-top:12%;
     }
 
+    #konten-sawit .unbord{ 
+        display:none;
+    }
+
     #konten-sawit .dampak-sawit .row{
         border: 1px solid white;
         padding: 8% 4%;
