@@ -468,8 +468,8 @@
         font-family: 'Poppins';
         font-weight: 900;
         color: var(--sawit);
-        font-size: 38px;
-        margin-top: 55%;
+        font-size: 44px;
+        margin-top: 43%;
         letter-spacing: 0px;
         padding-right: 10%;
         padding-left: 10%;
@@ -622,7 +622,6 @@
 }
 
 @media only screen and (min-width:1920px){
-    
     #head-cover{
         min-height: 70vh;
         background: url('../images/home.jpg');
@@ -674,7 +673,8 @@
         font-size: 24px;
         font-weight: 500;
         color: #FFFFFF;
-        width: 75%;
+        width: 78%;
+        text-align: justify;
     }
 
     #konten-sawit .card-sawit .cover {
@@ -740,10 +740,19 @@
     }
 
     #poin-sawit .card-poin .cover {
-        width: 94%;
+        width: 137%;
         height: 334px;
         border-radius: 34px;
         overflow: hidden;
+    }
+
+    #poin-sawit .campaign {
+        color: white;
+        text-align: center;
+        font-size: 24px;
+        font-family: 'Poppins';
+        font-weight: 500;
+        margin-bottom: 5%;
     }
 
     #poin-sawit .card-poin .cover .cpt {
