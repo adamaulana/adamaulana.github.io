@@ -710,7 +710,7 @@
 
     #validasi-sawit .cover {
         width: 84%;
-        height: 395px;
+        height: auto;
         border-radius: 34px;       
     }
 
@@ -734,7 +734,7 @@
         text-align:justify
     }
     #sertifikasi  .cover{
-        width: 79%;
+        width: 325px;
         height: 325px;
         border-radius: 34px;                             
     }
