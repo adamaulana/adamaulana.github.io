@@ -1,0 +1,224 @@
+/* import font */
+@font-face {
+    font-family: Gilroy-Bold;
+    src: url('../fonts/Gilroy-Extrabold.otf');
+}
+@font-face {
+    font-family: Gilroy-Light;
+    src: url('../fonts/Gilroy-Light.otf');
+}
+@font-face {
+    font-family: ProductSans-Bold;
+    src: url('../fonts/Product-Sans-Bold.ttf');
+}
+@font-face {
+    font-family: ProductSans-Regular;
+    src: url('../fonts/Product-Sans-Regular.ttf');
+}
+
+:root
+{
+
+    --primary : #C90404;     
+    --secondary : #044271;
+    --oranye : #F07642;
+    --mygrey : #044271;
+    /* --mygrey : #54576D; */
+}
+
+.container-fluid{
+    overflow-x: hidden;
+}
+
+.darken-p{color:var(--primary) ;}
+.darken-s{color:var(--secondary) ;}
+.red-required{color:red ;}
+
+.ps-bold{
+    font-family:'ProductSans-Bold';
+}
+.ps-regular{
+    font-family:'ProductSans-Regular';
+}
+.btn-digi{
+    padding:20px;
+    color: white;
+    background-color: #C90404;
+    font-family: 'ProductSans-Regular';
+    text-align: center;
+    text-decoration:none;
+    border:0px;
+}
+/* basic navbar */
+#myNavbar{
+    padding: 7px;
+    padding-left: 7%;
+    padding-right: 10%;    
+}
+
+#myNavbar{
+    font-family: 'Poppins';
+    font-weight: 400;}
+    #myNavbar .navbar-toggle{
+        color: rgb(73, 73, 73);
+    }
+    #myNavbar .navbar-brand{
+        margin-right: 6rem;
+        color: black;
+    }
+
+    #myNavbar .navbar-brand img{
+        width:60px;
+    }
+    #myNavbar .active{
+        font-weight:700;
+    }
+    #myNavbar .nav-link{
+        text-decoration: none;
+        font-size: 14px;
+        margin-right: 27px;
+        color:black;
+        font-family:'ProductSans-Bold';    
+        font-weight: 400;    
+    }
+    #myNavbar .active{
+        font-family: 'Poppins';    
+        font-weight: 700;            
+    }
+    #myNavbar .nav-link:hover{
+        font-family: 'Poppins';    
+        font-weight: 700;            
+    }
+    #myNavbar .search{
+        list-style:none;
+        float: right;
+    }
+    #myNavbar .search li{
+        display:inline-block;
+        cursor: pointer;
+    }
+    #myNavbar .search li img{
+        width:18px;
+        margin-right:20px;
+    }
+    /* end of navbar */
+    #extendNavbar{
+        font-family: 'Poppins';
+        font-weight: 400;
+        background-color: white;
+        padding: 7px;
+        padding-left: 7%;
+        padding-right: 10%;        
+        transition-duration:0.5s;
+        visibility:hidden;}
+        #extendNavbar .navbar-toggle{
+            color: rgb(73, 73, 73);
+        }
+        #extendNavbar .navbar-brand{
+            margin-right: 6rem;
+            color: black;
+        }
+        #extendNavbar .navbar-brand img{
+            width:60px;
+        }
+        #extendNavbar .active{
+            font-weight:700;
+        }
+        #extendNavbar .nav-link{
+            text-decoration: none;
+            font-size: 14px;
+            margin-right: 27px;
+            color:black;
+            font-family: 'ProductSans-Bold';    
+            font-weight: 400;    
+        }
+        #extendNavbar .active{   
+            font-weight: 700;            
+        }
+
+        #extendNavbar .nav-link:hover{
+            font-family: 'Poppins';    
+            font-weight: 700;            
+        }
+
+        #extendNavbar .search{
+            list-style:none;
+            float: right;
+        }
+        #extendNavbar .search li{
+            display:inline-block;
+            cursor: pointer;
+        }
+        #extendNavbar .search li img{
+            width:18px;
+            margin-right:20px;
+        }
+        
+        /* end of navbar */
+    
+
+/* card servie */
+.card-service{
+    padding: 31px 20px;
+    cursor: pointer;
+    margin: 10px;
+}
+.card-service:hover{
+    transition-duration:0.2s;
+    border-top: 2px solid #C90404;
+}
+
+.card-service .icon-service{
+    width: 38px;
+    margin-bottom: 17px;
+}
+.card-service .title-service{
+    color:black;
+    font-size:18px;
+}
+.card-service .caption-service{
+    color:#6b6b6b;
+    font-size:13px;
+    line-height:26px;
+}
+
+/* card talent */
+.card-talent{
+    padding: 31px 20px;
+    margin: 10px;
+    border-bottom:2px solid red;
+}
+
+.card-talent .title-talent{
+    color:black;
+    font-size:18px;
+}
+.card-talent .caption-talent{
+    color:#6b6b6b;
+    font-size:13px;
+    line-height:26px;
+}
+
+.card-porto{
+    width:245px;
+    min-height: 200px;
+}
+.card-porto img{
+    width:100%;
+}
+.card-porto .hashtag{
+    color: #6b6b6b;
+    font-size: 12px;
+    margin-top: 16px;
+}
+.card-porto .title{
+    color: black;
+    margin-top:8px;
+    font-size:17px;
+}
+
+.card-porto:hover{
+    z-index: 111111;
+    transition-duration:0.5s;
+    transform: scale(1.1);
+}

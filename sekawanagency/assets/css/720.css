@@ -1,0 +1,133 @@
+/* component css */
+@media only screen and (max-width:748px){
+    
+    #myNavbar{
+        font-family: 'ProductSans-Bold';
+        font-weight: 400;
+        background-color: white;
+        padding: 7px;
+        padding-left: 7%;
+        padding-right: 10%;
+        transition-duration: 0.5s;
+    }
+
+    #myNavbar .navbar-toggler{
+        color: var(--secondary);      
+    }
+
+    #myNavbar .navbar-toggler button:focus{
+        border:0px;  
+    }
+
+    #extendedNavbar .navbar-toggler{
+        color: var(--secondary);
+        border:0px;  
+    }
+
+    #extendedNavbar .navbar-toggler button:focus{
+        border:0px;  
+    }
+    #head-cover{
+        padding:5%;
+    }
+    #head-cover h1 {
+        color: black;
+        font-size: 47px;
+        width: 100%;
+        font-family: 'ProductSans-Bold';
+        margin-top: 30%;
+        text-align: center;
+    }
+    #head-cover .cpt{
+        color: #6B6B6B;
+        font-size: 14px;
+        width: 100%;
+        font-family: 'ProductSans-Regular';
+        padding-left: 5%;
+        padding-right: 5%;
+        text-align: center;
+    }
+
+    #head-cover .btn-area{
+        width:100%;
+        text-align:center;
+        margin-bottom:5%;
+    }
+    #head-cover .cover-avatar {
+        display: none;
+    }
+    #head-cover .poin-area{
+        text-align:center;
+        padding-left:7%;
+        padding-right:7%;
+        width:100%;
+    }
+    #head-cover .client-statisfaction-poin {
+        width: 100%;
+        padding: 10px 15px;
+        margin-left:0px;
+        border: 1px solid #B4B4B4;
+    }
+    #head-cover .case-completion-poin {
+        width: 100%;
+        padding: 10px 15px;
+        border: 1px solid #B4B4B4;
+        margin-left:0px;
+        margin-top:15px;
+    }
+    #head-cover .years-poin {
+        width: 100%;
+        padding: 10px 15px;
+        border: 1px solid #B4B4B4;
+        margin-left:0px;
+        margin-top:15px;
+    }
+
+    #talents .talent-cpt .clearfix {
+        font-size: 16px;
+        margin-top: 6%;
+        color: white;
+    }
+    #talents .talent-cpt {
+        padding: 10%;
+        text-align: center;
+    }
+    #testimoni .card-testi{
+        width:100%;
+    }
+    #testimoni .avatar-testi {
+        text-align: center;
+        /* padding-left: 7%; */
+    }
+    #testimoni .avatar-cpt {
+        text-align: center;
+        padding: 9%;
+        /* padding-left: 2%; */
+        /* padding-right: 5%; */
+    }
+    #testimoni .avatar-cpt .desc {
+        margin-top: 6%;
+        font-size: 16px;
+        width: 100%;
+        min-height: 50%;
+    }
+    #contact-us{
+        padding:10%;
+    }
+    #contact-us .title {
+        text-align: center;
+        width: 100%;
+        font-size: 33px;
+        color: white;
+    }
+
+    #footer{
+        text-align:center;
+    }
+}
+/* custom css */
+@media only screen and (max-width:748px){
+
+    
+    
+}
