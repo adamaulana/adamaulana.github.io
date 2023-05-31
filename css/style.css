@@ -30,11 +30,11 @@ nav .masuk {
 }
 .content-intro{
 	padding:0.5px;
-	min-height:60vh;		
+	min-height:600px;		
 }
 
 .content-intro h2{
-	margin-top:5%;		
+	margin-top:100px;		
 	font-size: 51px;
 	color: #2e2e2e;
 }
@@ -55,7 +55,7 @@ nav .masuk {
 }
 
 .content-portofolio{
-	padding-top:8%;
+	padding-top:0px;
 }
 .content-portofolio h3{
 	font-size:30px;
@@ -65,19 +65,57 @@ nav .masuk {
 }
 
 .lg-card{
-	padding:10px;
+	margin:10px;
+	border:1px solid #ededed;
+	box-shadow: 0px 0px 8px 3px #ededed;
 }
-.lg-card p{
-	cursor: pointer;;
+
+.lg-card .card-caption{
+	padding: 16px 20px;
+	display:flex;
+}
+.lg-card .card-caption p{
+	width:70%;
+	cursor: pointer;
 	font-family: 'Nunito', sans-serif;
 	font-size:17px;
-	margin:8px 0px;
+	margin-top:0px;
 	color: black;
 }
+
+#proto-content .col-lg-6{
+	padding:0px;
+}
+
+.lg-card .card-caption ul{
+	margin-left:auto;
+	padding-inline-start:0px;
+}
+.lg-card .card-caption ul li{
+	list-style: none;
+	display: inline-block;
+}
+
+.lg-card .card-caption ul li img{
+	height:25px;
+}
+
 
 .lg-card a{
 	text-decoration:none;
 }
+
+.lg-card .card-image{
+	padding:0px;
+	width:100%;
+	height:250px;
+}
+
+#pills-tab .nav-link.active{
+	background-color: var(--main) ;
+	color:white;
+}
+#pills-tab .nav-link {color:#2e2e2e}
 
 
 
